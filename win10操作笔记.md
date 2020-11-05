@@ -25,11 +25,11 @@ Windows Registry Editor Version 5.00
 
 ``` bash
 Windows Registry Editor Version 5.00
-[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\cmd_here]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\Windows_terminal_here]
 @="在此处打开Windows Terminal"
 "Icon"="C:\\Users\\youruser\\AppData\\Local\\terminal\\wt_32.ico"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\cmd_here\command]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\Windows_terminal_here\command]
 @="C:\\Users\\youruser\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe"
 ```
 
