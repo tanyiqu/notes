@@ -8,11 +8,23 @@
 ffmpeg -i in.flv -vcodec copy -acodec copy output.mp4
 ```
 
+
+
 ### ts -> mp4
 
 ```shell
 ffmpeg -y -i in.ts -vcodec copy -acodec copy -vbsf h264_mp4toannexb out.mp4
 ```
+
+
+
+### mov -> mp4
+
+```shell
+ffmpeg -i in.mov -vcodec copy -acodec copy out.mp4
+```
+
+
 
 ### 视频去掉声音
 
@@ -20,11 +32,15 @@ ffmpeg -y -i in.ts -vcodec copy -acodec copy -vbsf h264_mp4toannexb out.mp4
 ffmpeg -i in.mp4 -vcodec copy -an out.mp4
 ```
 
+
+
 ### 提取视频音频
 
 ```shell
 ffmpeg -i in.mp4 -vn -codec copy out.m4a
 ```
+
+
 
 ### 视频切片
 
@@ -42,11 +58,15 @@ ffmpeg -ss 00:04:46 -t 00:00:32 -i in.mp4 -vcodec copy -acodec copy output.mp4
 ffmpeg -i in.mp3 -acodec pcm_s16le -ac 2 -ar 44100 output.wav
 ```
 
+
+
 ### m4a -> wav
 
 ```shell
 ffmpeg -i in.m4a -acodec pcm_s16le -ac 2 -ar 44100 in.wav
 ```
+
+
 
 ### wav -> mp3
 
