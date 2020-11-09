@@ -15,6 +15,18 @@ def getDesktop():
 
 
 
+### 删除文件夹及其文件
+
+```python
+import shutil
+
+def rmDir(dirPath: str):
+    shutil.rmtree(dirPath)
+    pass
+```
+
+
+
 ## 问题处理
 
 ### pip安装使用清华源
