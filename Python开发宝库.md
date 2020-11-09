@@ -35,3 +35,14 @@ def rmDir(dirPath: str):
 pip install xxxx -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
+
+
+### 标记方法过时
+
+```python
+def my_function(x, y):
+	# 添加这一行代码
+    warnings.warn("my_function is deprecated", DeprecationWarning)
+    return x + y
+```
+
