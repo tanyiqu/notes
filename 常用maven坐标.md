@@ -16,7 +16,7 @@
 <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
-    <version>4.11</version>
+    <version>4.13.1</version>
     <scope>test</scope>
 </dependency>
 ```
@@ -24,10 +24,11 @@
 ## Spring
 
 ```xml
+<!-- 导入这个，自动导入其他别的依赖 -->
 <dependency>
     <groupId>org.springframework</groupId>
-    <artifactId>spring-context</artifactId>
-    <version>5.0.5.RELEASE</version>
+    <artifactId>spring-webmvc</artifactId>
+    <version>5.2.9.RELEASE</version>
 </dependency>
 ```
 
