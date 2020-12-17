@@ -1,14 +1,12 @@
-# VSCode扩展程序
+# 编程语言类
 
-## 编程语言类
-
-### Python
+## Python
 
 编写python程序
 
-## 外观类
+# 外观类
 
-### Power Mode
+## Power Mode
 
 输入特效插件
 
@@ -30,13 +28,13 @@
 
 
 
-## 辅助类
+# 辅助类
 
-### open in browser
+## open in browser
 
 html在网页打开
 
-### Live Server
+## Live Server
 
 浏览器实时刷新插件
 
