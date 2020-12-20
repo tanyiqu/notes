@@ -35,7 +35,9 @@
 ## SpringMVC
 
 ```xml
-<spring.version>5.0.2.RELEASE</spring.version>
+<properties>
+    <spring.version>5.1.13.RELEASE</spring.version>
+</properties>
 
 <dependency>
     <groupId>org.springframework</groupId>
